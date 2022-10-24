@@ -8,5 +8,5 @@ def prediction_model(pclass, sex, age, sibsp, parch, fare, embarked, title):
     elif prediction == 1:
         prediction = 'Survived'
     else:
-        predictoin = 'Error'
+        prediction = 'Error'
     return prediction
